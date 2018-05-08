@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ItemTracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="character_text">Characters</string>
+    <string name="create_text">Create</string>
+    <string name="settings_text">Settings</string>
+</resources>
