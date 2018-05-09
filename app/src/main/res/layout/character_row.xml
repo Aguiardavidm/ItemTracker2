@@ -26,8 +26,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_toRightOf="@id/imageView"
-                android:text="Character Name"
+                android:text="Item Name"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/textCharacterType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:layout_below="@id/textCharacterName"
+                android:text="Item Type"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
 
         </RelativeLayout>
 

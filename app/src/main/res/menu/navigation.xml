@@ -3,8 +3,8 @@
 
     <item
         android:id="@+id/navigation_characters"
-        android:icon="@drawable/ic_character_icon"
-        android:title="@string/character_text" />
+        android:icon="@drawable/ic_item_icon"
+        android:title="Items" />
 
     <item
         android:id="@+id/navigation_create"

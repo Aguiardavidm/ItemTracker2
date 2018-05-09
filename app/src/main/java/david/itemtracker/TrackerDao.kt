@@ -9,8 +9,17 @@ import android.arch.persistence.room.Query
 @Dao
 interface TrackerDao{
 
-    @Query("SELECT name FROM TrackerEntity")
-    fun getAllEntries(): List<String>
+    @Query("SELECT itemName FROM TrackerEntity")
+    fun getAllNames(): List<String>
+
+    @Query("SELECT itemType FROM TrackerEntity")
+    fun getTypes(): List<String>
+
+    @Query("Select itemName,itemType FROM TrackerEntity")
+    fun getNameTypePair(): List<itemNameType>
+
+    @Query("Select * From TrackerEntity ORDER BY itemName")
+    fun getEntities(): List<TrackerEntity>
 
     @Query("DELETE FROM TrackerEntity")
     fun nukeTable()

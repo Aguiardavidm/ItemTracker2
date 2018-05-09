@@ -6,4 +6,5 @@
     <string name="character_text">Characters</string>
     <string name="create_text">Create</string>
     <string name="settings_text">Settings</string>
+    <string name="title_activity_item_creation">itemCreation</string>
 </resources>

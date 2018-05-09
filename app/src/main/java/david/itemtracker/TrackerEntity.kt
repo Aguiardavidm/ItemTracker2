@@ -6,5 +6,7 @@ import android.arch.persistence.room.PrimaryKey
 @Entity
 data class TrackerEntity(
     @PrimaryKey()
-    val name: String
+    var itemName: String,
+    var itemDescription: String,
+    var itemType: String
 )
